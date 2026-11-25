@@ -1,0 +1,28 @@
+# Entornos
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Modelos y datasets: se descargan con download_assets.py desde el Release
+models/
+data/
+*.pt
+*.pth
+*.part
+
+# Archivos que genera la app
+static/uploads/
+static/outputs/
+
+# Salidas de entrenamiento e inferencia
+runs/
+runs_yolo/
+predictions/
+detections/
+
+# Carpeta local para preparar el Release
+release_staging/
+
+.vscode/
+.idea/
